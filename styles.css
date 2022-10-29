@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+#main-doc {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.nav-pane {
+    width: 300px;
+}
+
+.info-main {
+    margin-right: 30px;
+
+}
+
+.nav-bar {
+    border-right: 3px solid gray;
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: 100vh;
+    padding: 30px;
+    position: fixed;
+}
+
+a {
+    padding: 10px 0;
+    border-top: 1px solid black;
+    text-decoration: none;
+}
+
+.nav-link {
+    display: block;
+}
+
+
+header {
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+
+p, li {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-left: 50px;
+}
+
+code {
+    background-color: rgb(235, 233, 233);
+    max-width: fit-content;
+    padding: 20px;
+    margin: 20px 50px;
+    display: block;
+}
